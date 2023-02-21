@@ -21,6 +21,22 @@ const firstName: string = "Mean Says"
 console.log(firstName)
 console.log(firstName.toUpperCase)
 
-let fullname: string = firstName + "Oliveira Moreno Filho"
+let fullname: string = (firstName + "Oliveira Moreno Filho")
 
 console.log(fullname)
+
+// 3 - Boolean 
+
+let a: boolean = false
+
+console.log(a)
+console.log(typeof a )
+
+// 4 - inference e annotation
+
+const ann: string = "teste"
+
+let ne = "teste"
+
+console.log(ne)
+
